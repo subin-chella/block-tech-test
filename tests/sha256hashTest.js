@@ -26,7 +26,9 @@ describe('SHA256 hash page', () => {
     it('Enter some text and get sha256 hashed outputs', (browser) => {
 
             hashPage
+                .pause(2000)
                 .setValue('@inputTextArea', 'Hash me!!')
+                .pause(10000)
                 .getValue('@hashOutField', async (actualHashedString) => {
 
                         browser.sha256Encryption('Hash me!!', async (expectedHashString) => {

@@ -5,14 +5,14 @@
 
   <testsuite name="sha256hashTest"
     errors="0" failures="0" hostname="" id="" package="sha256hashTest" skipped="0"
-    tests="2" time="4.467" timestamp="">
+    tests="2" time="37.38" timestamp="">
   
-    <testcase name="Page title is correct" classname="sha256hashTest" time="4.141" assertions="1">
+    <testcase name="Page title is correct" classname="sha256hashTest" time="6.700" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Enter some text and get sha256 hashed outputs" classname="sha256hashTest" time="0.3260" assertions="1">
+    <testcase name="Enter some text and get sha256 hashed outputs" classname="sha256hashTest" time="30.68" assertions="1">
 
     
     </testcase>
