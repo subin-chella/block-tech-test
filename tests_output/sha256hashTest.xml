@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="sha256hashTest"
+    errors="1" failures="0" hostname="" id="" package="sha256hashTest" skipped="2"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        SessionNotCreatedError: An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created
+ from tab crashed
+   (Session info: chrome=98.0.4758.82)
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;./resources/chromedriver.exe&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from ChromeDriver.
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created
+from tab crashed
+  (Session info: chrome=98.0.4758.82)"><![CDATA[
+      SessionNotCreatedError: An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created
+from tab crashed
+  (Session info: chrome=98.0.4758.82)
+    at Object.throwDecodedError (C:\Users\schel\test\block-tech-test\node_modules\selenium-webdriver\lib\error.js:539:15)
+    at parseHttpResponse (C:\Users\schel\test\block-tech-test\node_modules\selenium-webdriver\lib\http.js:647:13)
+    at Executor.execute (C:\Users\schel\test\block-tech-test\node_modules\selenium-webdriver\lib\http.js:573:28)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Page title is correct" classname="sha256hashTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter some text and get sha256 hashed outputs" classname="sha256hashTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
