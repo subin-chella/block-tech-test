@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch"
+    "test": "nightwatch --reporter html-reporter.js"
   },
   "keywords": [],
   "author": "subin chellapandian",
   "license": "ISC",
   "devDependencies": {
     "chromedriver": "^98.0.0",
-    "nightwatch": "^2.0.6"
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "nightwatch": "^2.0.6",
+    "path": "^0.12.7"
   }
 }
