@@ -3,7 +3,7 @@
 * Test suite for hash page. 
 * Demonstracte POM and Custom commandss
 
-
+*/
 
 
 describe('SHA256 hash page', () => {
@@ -43,4 +43,4 @@ describe('SHA256 hash page', () => {
             browser.end();
      });
 
-});*/
+});
