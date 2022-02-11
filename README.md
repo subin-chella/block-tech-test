@@ -1,13 +1,20 @@
 # block-tech-test
 This is the source code for the Nightwatch block test demo project
 
-This project has two test suites.
+##This project has two test suites.
 1. Block test to demonstrate the custom commands, POM 
 2. Second Test is to demonstrate the BDD
 
 
-Running the Nightwatch tests
+##Running the Nightwatch tests
 
 * Clone the repository
-* Run npm install from the command line in the root folder.
-* You can start the application: npm test
+* Run **npm install** from the command line in the root folder.
+* You can start the application: **npm test**
+
+## Features
+1. POM
+2. BDD
+3. Custom Commands
+4. SCreenshots
+5. HTML reports
